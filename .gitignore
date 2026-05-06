@@ -1,0 +1,36 @@
+# Security & Databases
+*.db
+*.sqlite
+*.sqlite3
+user_pass_cred.db
+admin_user_pass.db
+database.db
+
+# Environment Variables & Secrets
+.env
+*.pem
+*.key
+
+# Specific Document Formats
+*.pdf
+*.docx
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
